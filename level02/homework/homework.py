@@ -1,0 +1,6 @@
+print("nika keshelava")
+print("davit janezjashvili")
+print("guram vakhatangashvili")
+print("giga xucisvili")
+print("aleqsandre apkhaza")
+print("gega shotadze")
