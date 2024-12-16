@@ -1,9 +1,17 @@
-#we had to fill the blanks
+def add(a, b):
+    a + b
 
-# 1)
-#  x = str.replace('!','.')
-# print(x)
-# =================================
-# 2)
-# a = "spam"
-# b = a.upper()
+def multiply(a, b):
+    a * b
+
+def divide(a, b):
+    a / b
+
+def mod(a, b):
+    a % b
+
+def exponent(a, b):
+    a ** b 
+
+def subt(a, b):
+    a - b

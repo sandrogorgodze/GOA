@@ -1,4 +1,9 @@
-def paperwork(n, m):
-    if n < 0 or m < 0:
-        return 0
-    return n * m
+number = int(input("enter number:"))
+if number > 0:
+    print("დადებითი")
+
+elif number < 0:
+    print("უარყოფითი")
+
+elif number == 0:
+    print("ნულის უდრის/ნულოვანი")    

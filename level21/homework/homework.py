@@ -1,1 +1,10 @@
-products_and_numbres = ['tomato',3,'potato','ketchup,maynoise',6,2,'fries',25,'pizza',4,93,'dough',243,'lobiani','khawapuri',]
+color = input("enter your color:")
+
+if color == "red":
+   print("goes to box #1")
+
+elif color == "green":
+ print("goes to box #2")
+
+elif color == "black":
+  print("goes to box #3")

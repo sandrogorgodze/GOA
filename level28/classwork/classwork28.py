@@ -1,3 +1,2 @@
-msg = input()
-result = msg.replace("#", " ")
-print(result)
+def main (verb, noun):
+    return verb + noun

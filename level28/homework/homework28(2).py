@@ -1,3 +1,4 @@
-words = ["apple", "banana", "cherry"]
-fruit_string = " ".join(words)
-print(fruit_string)
+def paperwork(n, m):
+    if n < 0 or m < 0:
+        return 0
+    return n * m

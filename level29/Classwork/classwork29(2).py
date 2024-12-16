@@ -1,17 +1,10 @@
-def add(a, b):
-    a + b
+text = input()
+word = input()
 
-def multiply(a, b):
-    a * b
+def search(text, word):
+    if word in text:
+        print ("Word found")
+    else:
+        print( "Word not found")
 
-def divide(a, b):
-    a / b
-
-def mod(a, b):
-    a % b
-
-def exponent(a, b):
-    a ** b 
-
-def subt(a, b):
-    a - b
+print(search(text, word))
