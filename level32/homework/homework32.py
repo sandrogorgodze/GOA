@@ -1,0 +1,7 @@
+def human_years_cat_years_dog_years(human_years):
+    cat_years = human_years * 12 if human_years <= 2 else 24 + (human_years - 2) * 4
+    dog_years = human_years * 12 if human_years <= 2 else 24 + (human_years - 2) * 5
+    return [human_years, cat_years, dog_years]
+
+
+
